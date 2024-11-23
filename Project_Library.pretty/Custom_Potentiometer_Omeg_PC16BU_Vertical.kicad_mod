@@ -1,0 +1,249 @@
+(footprint "Custom_Potentiometer_Omeg_PC16BU_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Omeg PC16BU, http://www.omeg.co.uk/pc6bubrc.htm")
+	(tags "Potentiometer vertical Omeg PC16BU")
+	(property "Reference" "RV5"
+		(at 5.865 -5 -90)
+		(layer "F.SilkS")
+		(uuid "ccbde78d-5ce7-4cf0-bfbf-628b66bd5eb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10K"
+		(at 13.24 4.7 0)
+		(layer "F.Fab")
+		(uuid "6dc94a7b-141d-4306-b3c8-817ef6cf2c71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81302a10-93eb-446f-aa7f-a6efdc0a8bc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e30d3c9-88f7-4586-87ae-5b9003d35760")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Potentiometer, US symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "319bd0c4-6786-4003-8057-0c5b78244438")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 4.955 -13.57)
+		(end 4.955 3.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d58d4fa8-428d-4d4f-a705-ba01d19ddf55")
+	)
+	(fp_line
+		(start 4.955 -13.57)
+		(end 15.875 -13.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63ef457c-222d-44db-8cf5-7dfd4fb54569")
+	)
+	(fp_line
+		(start 4.955 3.57)
+		(end 15.875 3.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8e5de69-233a-447b-b136-8a307059ae5f")
+	)
+	(fp_circle
+		(center 15.875 -5)
+		(end 24.445 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b4eddd5f-9826-4bee-a797-e6e3aa3a7f78")
+	)
+	(fp_line
+		(start -1.45 -13.7)
+		(end -1.45 3.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc043c8b-67cf-4050-9377-a1e0d1b0bac3")
+	)
+	(fp_line
+		(start -1.45 3.7)
+		(end 25.4 3.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22ed0a34-a4b6-445c-b264-f3f32987105b")
+	)
+	(fp_line
+		(start 25.4 -13.7)
+		(end -1.45 -13.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d61ed5a-f193-4ddb-ab12-8c4c1c3d29e9")
+	)
+	(fp_line
+		(start 25.4 3.7)
+		(end 25.4 -13.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b4bfd4b-90e7-40ac-8815-b71861cc3662")
+	)
+	(fp_line
+		(start 5.075 -13.45)
+		(end 5.075 3.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4c2975f-a514-4ff2-9cf0-d0afa901def6")
+	)
+	(fp_line
+		(start 5.075 3.45)
+		(end 15.875 3.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e93f8d26-d1a3-49b5-bc7c-8ab73537fd1e")
+	)
+	(fp_line
+		(start 15.875 -13.45)
+		(end 5.075 -13.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5bfa2bf7-a07b-486d-8768-4a96ee866b08")
+	)
+	(fp_circle
+		(center 15.875 -5)
+		(end 17.875 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "32d24068-8e2a-4ece-91ee-437edc6e871e")
+	)
+	(fp_circle
+		(center 15.875 -5)
+		(end 24.325 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f5d59161-0f6d-4b5f-9032-7b2846d68e29")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.075 -5 -90)
+		(layer "F.Fab")
+		(uuid "d2ecfc94-54bc-4963-825c-2707a0c502fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "896d1ef9-196c-4354-b6c2-2859c40e110e")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf054e26-4660-4f56-816a-a5c5295a5052")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -10)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86e43596-545e-41c1-9981-bd194e0b7f1e")
+	)
+	(model "${KIPRJMOD}/../3d-models/RV16AF-41.step"
+		(offset
+			(xyz 16 5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
