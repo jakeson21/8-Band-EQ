@@ -1,0 +1,339 @@
+(footprint "Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
+	(tags "potentiometer vertical 9mm single")
+	(property "Reference" "RV1"
+		(at 6.45 -4.8 180)
+		(layer "F.SilkS")
+		(uuid "26cec1be-3525-491f-9971-36d0dde91277")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10K"
+		(at 0 10.11 180)
+		(layer "F.Fab")
+		(uuid "9f58b983-f368-40b7-adda-c4622ea5f57c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles"
+		(at 0 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95b3f9f4-42ce-4609-91ae-a5b4187a8768")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.taydaelectronics.com/potentiometer-variable-resistors/rotary-potentiometer/linear/10k-ohm-linear-taper-potentiometer-knurled-plastic-round-shaft-pcb-9mm.html"
+		(at 0 11.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf990d52-3332-4801-991d-b0d0fb8567c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Potentiometer, US symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e043db1b-2167-4c72-876a-78a144eddd36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alt1" "https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf"
+		(at 0 13.335 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "698a9d6f-31ea-45cf-b3db-7d2956f5308a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alt2" ""
+		(at -0.635 -19.685 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9018cb3b-4efd-4170-a00c-bcc27494b957")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.88 -2.38)
+		(end 5.6 -2.38)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b2cd961-f44d-4b66-9c6c-f93b81dd7387")
+	)
+	(fp_line
+		(start 0.88 -1.19)
+		(end 0.88 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7b7ffea-e0b1-481d-b1ea-3ba231ed6b24")
+	)
+	(fp_line
+		(start 0.88 1.71)
+		(end 0.88 1.18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b0ef5e0-f1cd-4981-8430-61712504bbb0")
+	)
+	(fp_line
+		(start 0.88 4.16)
+		(end 0.88 3.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "041a9d7d-9ade-4dd0-a832-805c5a654fd5")
+	)
+	(fp_line
+		(start 0.88 7.37)
+		(end 0.88 5.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ae9415b-d73b-4ae7-ab1c-d7deab78bbf7")
+	)
+	(fp_line
+		(start 0.88 7.37)
+		(end 5.6 7.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abef469e-0784-49d3-91e7-610e6a5b37ff")
+	)
+	(fp_line
+		(start 9.41 -2.37)
+		(end 12.47 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a23d7afa-34a4-4fa4-a38b-ed5ee20dc79b")
+	)
+	(fp_line
+		(start 9.41 7.37)
+		(end 12.47 7.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b96917d-0e3f-45ea-b991-217dafdcc738")
+	)
+	(fp_line
+		(start 12.47 7.37)
+		(end 12.47 -2.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b32933b-7c42-486f-ac0f-5ae813897311")
+	)
+	(fp_line
+		(start -1.15 -4.17)
+		(end -1.15 9.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d908f19c-0fe5-47bd-8d83-03d0196c80a0")
+	)
+	(fp_line
+		(start -1.15 9.17)
+		(end 12.6 9.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "033b41e4-88fe-42df-866d-5221d1183b69")
+	)
+	(fp_line
+		(start 12.6 -4.17)
+		(end -1.15 -4.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "184b795c-2d2b-459f-863c-b60752acb2e7")
+	)
+	(fp_line
+		(start 12.6 9.17)
+		(end 12.6 -4.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e606c2aa-1b58-4b63-a52c-b6dd54d46222")
+	)
+	(fp_line
+		(start 1 -2.25)
+		(end 12.35 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53268b93-cc41-4673-abd2-d0217b8f03c2")
+	)
+	(fp_line
+		(start 1 7.25)
+		(end 1 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5212895-f071-42a7-9834-b0685bb0f71d")
+	)
+	(fp_line
+		(start 1 7.25)
+		(end 12.35 7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3eec12e9-4f63-4826-be81-9c1ccf2cc753")
+	)
+	(fp_line
+		(start 12.35 7.25)
+		(end 12.35 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d56aaf33-a7db-4634-9d94-772e803c7459")
+	)
+	(fp_circle
+		(center 7.5 2.5)
+		(end 7.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3f484d0d-cde5-4dd0-89e9-33ce0639fb84")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 2.54 180)
+		(layer "F.Fab")
+		(uuid "adab584d-e4f9-4e3b-b648-8fb31ec2eab9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 7.5 -2.3 90)
+		(size 3.24 3.24)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c8a1d92-1e2d-470a-986a-9adfa6410606")
+	)
+	(pad "" thru_hole circle
+		(at 7.5 7.3 90)
+		(size 3.24 3.24)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b897851-3e38-454e-9715-f74eed6efe93")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8344350-9d3e-471e-81bb-cf79b82fc396")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.5 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d80a165-a86f-49c4-b006-b7acdd6999e6")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b08c8d1e-462e-4a93-8dee-23f8e9960201")
+	)
+	(model "${KIPRJMOD}/../3d-models/RD901F-40-15R1.step"
+		(offset
+			(xyz 7.5 -2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
