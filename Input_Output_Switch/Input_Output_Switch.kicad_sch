@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "94a0f742-9aa3-4c6d-b577-3626080b87f8")
 	(paper "A4")
+	(title_block
+		(title "EQ8-Main-Board")
+		(date "2024-11-23")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
@@ -3607,7 +3612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "B3B-XH-A"
 			(at 140.208 101.4237 0)
 			(effects
 				(font
@@ -3616,7 +3621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 138.43 106.68 0)
 			(effects
 				(font
@@ -3625,7 +3630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/b3b-xh-a/1651046"
 			(at 138.43 106.68 0)
 			(effects
 				(font
@@ -3634,7 +3639,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Through Hole 3 position 0.098\" (2.50mm)"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/b3b-xh-a/1651046"
 			(at 138.43 106.68 0)
 			(effects
 				(font
@@ -3783,6 +3797,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "360d1282-ee0a-4ea8-a07a-08f91a4c40d5")
 		)
@@ -3853,6 +3885,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 106.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 106.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6cf96000-b85e-45da-ab0e-68e8932cfba4")
 		)
@@ -3887,7 +3937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "296-TL072HIDRCT-ND"
 			(at 121.285 36.6537 0)
 			(effects
 				(font
@@ -3905,7 +3955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TL072HIDR/15205173"
 			(at 123.19 35.56 0)
 			(effects
 				(font
@@ -3961,7 +4011,7 @@
 		(at 158.75 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4011,6 +4061,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1369558-bbf2-49c9-9e4e-d8f08d692646")
 		)
@@ -4028,7 +4096,7 @@
 		(at 158.75 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4070,6 +4138,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 158.75 25.4 0)
 			(effects
 				(font
@@ -4145,6 +4231,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 93.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 93.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b9d0ed4-099a-4b92-b865-c10b0cd6a63a")
 		)
@@ -4178,7 +4282,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RV"
+		(property "Value" "B3B-XH-A"
 			(at 174.752 101.4237 0)
 			(effects
 				(font
@@ -4187,7 +4291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 176.53 106.68 0)
 			(effects
 				(font
@@ -4196,7 +4300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/b3b-xh-a/1651046"
 			(at 176.53 106.68 0)
 			(effects
 				(font
@@ -4205,7 +4309,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Through Hole 3 position 0.098\" (2.50mm)"
+			(at 176.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/b3b-xh-a/1651046"
 			(at 176.53 106.68 0)
 			(effects
 				(font
@@ -4351,6 +4464,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66570f16-eb73-4e31-a4aa-6dc3a61f18b2")
 		)
@@ -4431,6 +4562,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 66.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 66.04 36.83 0)
 			(effects
 				(font
@@ -4538,7 +4687,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "296-TL072HIDRCT-ND"
 			(at 171.45 95.5818 0)
 			(effects
 				(font
@@ -4555,7 +4704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TL072HIDR/15205173"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -4797,6 +4946,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "568eb3db-0f50-42d1-9ae8-00bb848c1e92")
 		)
@@ -4817,7 +4984,7 @@
 		(at 148.59 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4859,6 +5026,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 148.59 48.26 0)
 			(effects
 				(font
@@ -4932,6 +5117,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fa81657-0af9-4764-83bb-f3ca0982f864")
 		)
@@ -4992,6 +5195,24 @@
 			)
 		)
 		(property "Description" "0.22 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -5072,6 +5293,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/94a0f742-9aa3-4c6d-b577-3626080b87f8"
@@ -5128,6 +5367,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -5209,6 +5466,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c213c89-fb16-428f-99f2-f3cd9cd1cddb")
 		)
@@ -5269,6 +5544,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 71.12 93.98 0)
 			(effects
 				(font
@@ -5363,7 +5656,7 @@
 		(at 147.32 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5413,6 +5706,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0528b1d1-a1a8-4064-a4d0-20b5dd1c2cf6")
 		)
@@ -5443,7 +5754,7 @@
 				)
 			)
 		)
-		(property "Value" "AudioJackOut"
+		(property "Value" "A-6730"
 			(at 258.445 75.8682 0)
 			(effects
 				(font
@@ -5479,6 +5790,24 @@
 			)
 		)
 		(property "Web" "https://www.taydaelectronics.com/6-35mm-1-4-mono-insulated-socket-jack-pcb-pins.html"
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 257.81 83.82 0)
 			(effects
 				(font
@@ -5526,7 +5855,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "296-TL072HIDRCT-ND"
 			(at 107.95 98.1218 0)
 			(effects
 				(font
@@ -5543,7 +5872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TL072HIDR/15205173"
 			(at 107.95 91.44 0)
 			(effects
 				(font
@@ -5649,6 +5978,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac601c1d-e785-4dec-9bf4-77b182957c9c")
 		)
@@ -5717,6 +6064,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "600831d1-4170-4fcd-9269-0fd8b09e2767")
 		)
@@ -5742,7 +6107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dba5d93-4e9e-495c-b7c8-a6db057e3938")
-		(property "Reference" "RV1"
+		(property "Reference" "POT1"
 			(at 90.551 85.2662 0)
 			(effects
 				(font
@@ -5751,7 +6116,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "A-4728"
 			(at 90.551 87.4537 0)
 			(effects
 				(font
@@ -5778,7 +6143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer, US symbol"
+		(property "Description" "RD901F-40-15K-B10K"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -5796,7 +6161,16 @@
 				(hide yes)
 			)
 		)
-		(property "Alt2" "https://www.taydaelectronics.com/potentiometer-variable-resistors/rotary-potentiometer/linear/tayda-10k-ohm-linear-taper-potentiometer-spline-shaft-pcb-mount-9mm.html"
+		(property "Alt2" ""
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -5817,7 +6191,7 @@
 		(instances
 			(project "Input_Output_Switch"
 				(path "/94a0f742-9aa3-4c6d-b577-3626080b87f8"
-					(reference "RV1")
+					(reference "POT1")
 					(unit 1)
 				)
 			)
@@ -5895,7 +6269,7 @@
 		(at 158.75 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5937,6 +6311,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 158.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 158.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 158.75 48.26 0)
 			(effects
 				(font
@@ -6169,19 +6561,21 @@
 		(fields_autoplaced yes)
 		(uuid "b61ccef4-a6a8-4f18-a64b-8b1b44dbbef0")
 		(property "Reference" "J4"
-			(at 46.99 49.5093 0)
+			(at 41.148 40.8162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Barrel_Jack_Switch"
-			(at 46.99 47.3218 0)
+		(property "Value" "A-4118"
+			(at 41.148 43.0037 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
@@ -6193,7 +6587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.taydaelectronics.com/datasheets/files/A-4118.pdf"
 			(at 48.26 40.894 0)
 			(effects
 				(font
@@ -6203,6 +6597,15 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 46.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.taydaelectronics.com/dc-power-jack-2-1mm-barrel-type-pcb-mount.html"
 			(at 46.99 41.91 0)
 			(effects
 				(font
@@ -6247,7 +6650,7 @@
 				)
 			)
 		)
-		(property "Value" "AudioJackIn"
+		(property "Value" "A-6730"
 			(at 36.195 86.0282 0)
 			(effects
 				(font
@@ -6283,6 +6686,24 @@
 			)
 		)
 		(property "Web" "https://www.taydaelectronics.com/6-35mm-1-4-mono-insulated-socket-jack-pcb-pins.html"
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 36.83 93.98 0)
 			(effects
 				(font
@@ -6502,6 +6923,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "400b3b3f-e5f9-4f44-a979-0b3529c5b48c")
 		)
@@ -6554,7 +6993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/ESK107M016AC3AA/3083016"
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -6564,6 +7003,24 @@
 			)
 		)
 		(property "Description" "CAP ALUM 100UF 20% 16V RADIAL TH"
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -6706,6 +7163,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alt2" ""
+			(at 80.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 80.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e281284c-0ecf-4711-acc1-4e0b5a132aaf")
 		)
@@ -6726,7 +7201,7 @@
 		(at 162.56 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6766,6 +7241,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 162.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 162.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 162.56 77.47 0)
 			(effects
 				(font
@@ -6968,6 +7461,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 85.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt2" ""
+			(at 85.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
 			(at 85.09 30.48 0)
 			(effects
 				(font

@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "2280634a-0b1d-43bb-9e80-b1e86812b420")
 	(paper "A4")
+	(title_block
+		(title "Row-of-4-POTs")
+		(date "2024-11-23")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -1945,7 +1950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RV"
+		(property "Value" "S3B-XH-A"
 			(at 195.072 78.5637 0)
 			(effects
 				(font
@@ -1954,7 +1959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 196.85 83.82 0)
 			(effects
 				(font
@@ -1963,7 +1968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "455-S3B-XH-A-ND"
 			(at 196.85 83.82 0)
 			(effects
 				(font
@@ -2310,7 +2315,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "S3B-XH-A"
 			(at 52.578 96.3437 0)
 			(effects
 				(font
@@ -2319,7 +2324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 50.8 101.6 0)
 			(effects
 				(font
@@ -2328,7 +2333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "455-S3B-XH-A-ND"
 			(at 50.8 101.6 0)
 			(effects
 				(font
@@ -2382,7 +2387,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "FHMD-DA006G1NBON-B"
 			(at 168.91 105.0782 0)
 			(effects
 				(font
@@ -2399,7 +2404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "4324-FHMD-DA006G1NBON-B-ND"
 			(at 167.64 110.49 0)
 			(effects
 				(font
@@ -2779,7 +2784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "S3B-XH-A"
 			(at 52.578 78.5637 0)
 			(effects
 				(font
@@ -2788,7 +2793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 50.8 83.82 0)
 			(effects
 				(font
@@ -2797,7 +2802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "455-S3B-XH-A-ND"
 			(at 50.8 83.82 0)
 			(effects
 				(font
@@ -3081,7 +3086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer, US symbol"
+		(property "Description" "RD901F-40-15K-B10K"
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -3278,7 +3283,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RV"
+		(property "Value" "S3B-XH-A"
 			(at 195.072 91.2637 0)
 			(effects
 				(font
@@ -3287,7 +3292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 196.85 96.52 0)
 			(effects
 				(font
@@ -3296,7 +3301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "455-S3B-XH-A-ND"
 			(at 196.85 96.52 0)
 			(effects
 				(font
@@ -3416,7 +3421,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "FHMD-DA006G1NBON-B"
 			(at 125.73 122.8582 0)
 			(effects
 				(font
@@ -3433,7 +3438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "4324-FHMD-DA006G1NBON-B-ND"
 			(at 124.46 128.27 0)
 			(effects
 				(font

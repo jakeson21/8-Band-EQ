@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "6af15bab-da7f-4fe7-b7b1-a390ce42ee2b")
 	(paper "A4")
+	(title_block
+		(title "2-Band-Gyrator")
+		(date "2024-11-23")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
@@ -2423,7 +2428,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "33n"
 			(at 146.05 101.6492 90)
 			(effects
 				(font
@@ -2449,7 +2454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CC0603JRX7R9BB333"
 			(at 146.05 105.41 0)
 			(effects
 				(font
@@ -2624,7 +2629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "296-TL072HIDRCT-ND"
 			(at 92.075 112.8537 0)
 			(effects
 				(font
@@ -2642,7 +2647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TL072HIDR/15205173"
 			(at 93.98 111.76 0)
 			(effects
 				(font
@@ -2712,7 +2717,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5u"
+		(property "Value" "0.33u"
 			(at 203.581 96.3437 0)
 			(effects
 				(font
@@ -2730,7 +2735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B335KAHVPNE/5961344"
 			(at 200.66 95.25 0)
 			(effects
 				(font
@@ -2781,7 +2786,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "296-TL072HIDRCT-ND"
 			(at 200.66 127.3318 0)
 			(effects
 				(font
@@ -2798,7 +2803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TL072HIDR/15205173"
 			(at 200.66 120.65 0)
 			(effects
 				(font
@@ -2867,7 +2872,7 @@
 				)
 			)
 		)
-		(property "Value" "56n"
+		(property "Value" "15n"
 			(at 191.77 101.6492 90)
 			(effects
 				(font
@@ -2893,7 +2898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CC0603JRX7R9BB153"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -3005,7 +3010,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "PHED-DS006G1ABOGA-A006"
 			(at 151.13 148.2582 0)
 			(effects
 				(font
@@ -3022,7 +3027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/superior-tech/PHED-DS006G1ABOGA-A006/16583466"
 			(at 149.86 153.67 0)
 			(effects
 				(font
@@ -3031,7 +3036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "MALE HEADER VERTICAL THROUGH HOL"
 			(at 149.86 153.67 0)
 			(effects
 				(font
@@ -3174,7 +3179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/ESK107M016AC3AA/3083016"
 			(at 106.68 118.11 0)
 			(effects
 				(font
@@ -3183,7 +3188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM 100UF 20% 16V RADIAL TH"
 			(at 106.68 118.11 0)
 			(effects
 				(font
@@ -3226,7 +3231,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "0.68u"
 			(at 157.861 96.3437 0)
 			(effects
 				(font
@@ -3244,7 +3249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R8BB684/16797741"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -3296,7 +3301,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "1.5u"
 			(at 168.021 96.3437 0)
 			(effects
 				(font
@@ -3523,7 +3528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/ESK107M016AC3AA/3083016"
 			(at 106.68 105.41 0)
 			(effects
 				(font
@@ -3532,7 +3537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM 100UF 20% 16V RADIAL TH"
 			(at 106.68 105.41 0)
 			(effects
 				(font
@@ -3575,7 +3580,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "1.5u"
 			(at 213.741 96.3437 0)
 			(effects
 				(font
@@ -3779,7 +3784,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "296-TL072HIDRCT-ND"
 			(at 154.94 127.3318 0)
 			(effects
 				(font
@@ -3796,7 +3801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TL072HIDR/15205173"
 			(at 154.94 120.65 0)
 			(effects
 				(font

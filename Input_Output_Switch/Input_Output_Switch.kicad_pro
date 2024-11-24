@@ -30,11 +30,11 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.127,
         "other_text_italic": false,
-        "other_text_size_h": 1.0,
-        "other_text_size_v": 1.0,
-        "other_text_thickness": 0.15,
+        "other_text_size_h": 0.762,
+        "other_text_size_v": 0.762,
+        "other_text_thickness": 0.127,
         "other_text_upright": false,
         "pads": {
           "drill": 0.762,
@@ -572,7 +572,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "BOM.csv",
+    "bom_export_filename": "Main-Board-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -651,6 +651,24 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alt1",
+          "name": "Alt1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alt2",
+          "name": "Alt2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "URL",
+          "name": "URL",
           "show": false
         }
       ],
