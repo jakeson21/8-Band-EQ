@@ -1,9 +1,9 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6af15bab-da7f-4fe7-b7b1-a390ce42ee2b")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
 		(title "2-Band-Gyrator")
 		(date "2024-11-23")
@@ -101,17 +101,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -137,17 +137,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -226,24 +226,6 @@
 			)
 			(symbol "TL072_3_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -261,11 +243,32 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -332,8 +335,19 @@
 			)
 			(symbol "Conn_02x03_Odd_Even_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -354,8 +368,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -365,19 +379,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -398,8 +401,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -427,24 +430,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -455,24 +440,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -499,6 +466,42 @@
 					)
 				)
 				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_6"
@@ -517,9 +520,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -592,7 +598,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -604,7 +610,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -653,9 +659,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -811,9 +820,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -884,18 +896,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -908,7 +908,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -932,7 +932,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -981,12 +993,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1077,12 +1094,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1154,7 +1176,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1166,7 +1188,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1197,7 +1219,88 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "C1"
+		(exclude_from_sim no)
+		(at 191.77 109.855 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fec5d58-0aec-48b2-b91d-13b23f4ef84d")
+	)
+	(text "C2"
+		(exclude_from_sim no)
+		(at 198.755 92.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ad04b45-0af3-4af9-8b52-d908470e7c79")
+	)
+	(text "C1"
+		(exclude_from_sim no)
+		(at 146.05 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c05f1527-15e4-4bc7-8255-5cb2a5deac5b")
+	)
+	(text "C2"
+		(exclude_from_sim no)
+		(at 153.035 92.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4bebcbd-e194-4468-8eca-713e9c8f2623")
+	)
+	(text_box "C2    \n3.3u    3.3 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric) CL31B335KAHVPNE\n1.5u    1.5 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric) CGA4J3X7R1E155K125AB\n0.68u   0.68 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric) CC0603KRX7R8BB684\n0.33u   0.33 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric) 885012206074\n0.15u   0.15 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric) 885012206072\n0.1u    0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) CL10B104KB8NNNC\n0.039u  0.039 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric) CC0603JRX7R9BB393\n0.022u  0.022 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) C0603C223K5RACTU\nC1    \n0.1u    \n0.056u  0.056 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) CC0603KRX7R9BB563\n0.033u  0.033 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric) CC0603JRX7R9BB333\n0.015u  0.015 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric) CC0603JRX7R9BB153\n8.2n    8200 pF ±5% 25V Ceramic Capacitor C0G, NP0 0603 (1608 Metric) GRT1885C1E822JA02D\n3.9n    3900 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric) GCM1885C1H392JA16D\n2.2n    2200 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric) GRM1885C1H222JA01D\n1.2n    1200 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric) GCM1885C1H122JA16D"
+		(exclude_from_sim no)
+		(at 38.1 38.1 0)
+		(size 87.8822 39.9827)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1041e2fb-c6dd-4374-9eaf-441f75d24cef")
+	)
+	(text_box "F (Hz) C1      C2      R1     R2\n50     0.1u    3.3u    100K   330\n100    0.056u  1.5u    100K   330\n200    0.033u  0.68u   82K    330\n400    0.015u  0.33u   100K   330\n800    8.2n    0.15u   100K   330\n1600   3.9n    0.1u    82K    330\n3200   2.2n    0.039u  82K    330\n6400   1.2n    0.022u  82K    330"
+		(exclude_from_sim no)
+		(at 38.1 82.55 0)
+		(size 34.29 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a5a49a1f-17be-41bc-860c-9b8191ca1e36")
 	)
 	(junction
 		(at 116.84 111.76)
@@ -1979,87 +2082,8 @@
 		)
 		(uuid "fedf3f6c-dadd-44fd-ab1b-92bd9f7912d3")
 	)
-	(text_box "C2    \n3.3u    3.3 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric) CL31B335KAHVPNE\n1.5u    1.5 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric) CGA4J3X7R1E155K125AB\n0.68u   0.68 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric) CC0603KRX7R8BB684\n0.33u   0.33 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric) 885012206074\n0.15u   0.15 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric) 885012206072\n0.1u    0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) CL10B104KB8NNNC\n0.039u  0.039 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric) CC0603JRX7R9BB393\n0.022u  0.022 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) C0603C223K5RACTU\nC1    \n0.1u    \n0.056u  0.056 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric) CC0603KRX7R9BB563\n0.033u  0.033 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric) CC0603JRX7R9BB333\n0.015u  0.015 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric) CC0603JRX7R9BB153\n8.2n    8200 pF ±5% 25V Ceramic Capacitor C0G, NP0 0603 (1608 Metric) GRT1885C1E822JA02D\n3.9n    3900 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric) GCM1885C1H392JA16D\n2.2n    2200 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric) GRM1885C1H222JA01D\n1.2n    1200 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric) GCM1885C1H122JA16D"
-		(exclude_from_sim no)
-		(at 38.1 38.1 0)
-		(size 87.8822 39.9827)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1041e2fb-c6dd-4374-9eaf-441f75d24cef")
-	)
-	(text_box "F (Hz) C1      C2      R1     R2\n50     0.1u    3.3u    100K   330\n100    0.056u  1.5u    100K   330\n200    0.033u  0.68u   82K    330\n400    0.015u  0.33u   100K   330\n800    8.2n    0.15u   100K   330\n1600   3.9n    0.1u    82K    330\n3200   2.2n    0.039u  82K    330\n6400   1.2n    0.022u  82K    330"
-		(exclude_from_sim no)
-		(at 38.1 82.55 0)
-		(size 34.29 20.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a5a49a1f-17be-41bc-860c-9b8191ca1e36")
-	)
-	(text "C1"
-		(exclude_from_sim no)
-		(at 191.77 109.855 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0fec5d58-0aec-48b2-b91d-13b23f4ef84d")
-	)
-	(text "C2"
-		(exclude_from_sim no)
-		(at 198.755 92.075 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4ad04b45-0af3-4af9-8b52-d908470e7c79")
-	)
-	(text "C1"
-		(exclude_from_sim no)
-		(at 146.05 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c05f1527-15e4-4bc7-8255-5cb2a5deac5b")
-	)
-	(text "C2"
-		(exclude_from_sim no)
-		(at 153.035 92.075 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f4bebcbd-e194-4468-8eca-713e9c8f2623")
-	)
 	(label "VCC{slash}2"
 		(at 139.7 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2070,7 +2094,6 @@
 	)
 	(label "GNDA"
 		(at 93.98 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2081,7 +2104,6 @@
 	)
 	(label "RV1"
 		(at 158.75 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2092,7 +2114,6 @@
 	)
 	(label "VCC{slash}2"
 		(at 185.42 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2103,7 +2124,6 @@
 	)
 	(label "VCC"
 		(at 93.98 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2114,7 +2134,6 @@
 	)
 	(label "VCC{slash}2"
 		(at 162.56 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2125,7 +2144,6 @@
 	)
 	(label "VCC{slash}2"
 		(at 116.84 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2136,7 +2154,6 @@
 	)
 	(label "RV1"
 		(at 142.24 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2147,7 +2164,6 @@
 	)
 	(label "RV2"
 		(at 142.24 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2158,7 +2174,6 @@
 	)
 	(label "RV2"
 		(at 204.47 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2170,7 +2185,6 @@
 	(hierarchical_label "GNDA"
 		(shape input)
 		(at 88.9 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2182,7 +2196,6 @@
 	(hierarchical_label "VCC{slash}2"
 		(shape input)
 		(at 121.92 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2194,7 +2207,6 @@
 	(hierarchical_label "VCC"
 		(shape input)
 		(at 88.9 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3927,4 +3939,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

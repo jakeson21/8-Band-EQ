@@ -6,7 +6,7 @@
 		(thickness 1.54178)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A")
 	(title_block
 		(title "2-Band OpAmp Gyrator")
 		(date "2024-11-23")
@@ -7329,7 +7329,7 @@
 			(xy 130.81 63.5) (xy 151.13 63.5)
 		)
 		(height -1.905)
-		(gr_text "800.0000 mils"
+		(gr_text "0.8000 in"
 			(at 140.97 60.445 0)
 			(layer "Dwgs.User")
 			(uuid "9cc96334-0037-4b24-baa6-2530ffc29854")
@@ -7362,7 +7362,7 @@
 			(xy 151.13 63.5) (xy 151.13 67.31)
 		)
 		(height -6.985)
-		(gr_text "150.0000 mils"
+		(gr_text "0.1500 in"
 			(at 156.965 65.405 90)
 			(layer "Dwgs.User")
 			(uuid "f7520346-b54b-466a-878d-a320240763fa")
